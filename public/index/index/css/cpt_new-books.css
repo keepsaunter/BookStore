@@ -1,0 +1,45 @@
+.new_books_div{
+    width: 100%;
+    overflow:hidden;
+    position: relative;
+    height: 100%;
+    background-image: url('../../images/new_book_back.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 6%;
+    padding-left: 3%;
+}
+.new_books_div_page{
+    width:100%;
+    height: 100%
+}
+.new_books_div_page .new_books_div_page_item{
+    width:100%;
+    height: 45%;
+}
+.new_boos_arrow_div{
+    position: absolute;
+    left: 44%;
+    top: 96%;
+    width: 14%;
+    height: 3%;
+}
+.new_boos_arrow_div div {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+    height:100%;
+    display: inline-block;
+    cursor: hand;
+}
+.new_boos_arrow_div div:nth-child(1) {
+    background-image: url("../../../images/arrow_l.png");
+}
+.new_boos_arrow_div div:nth-child(2) {
+    background-image: url("../../../images/arrow_r.png");
+}
+.new_books_div_page:not(:nth-child(1)){
+    position: absolute;
+    left: 100%;
+    top: 0px;
+}

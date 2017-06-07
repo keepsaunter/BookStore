@@ -1,0 +1,11 @@
+.admin_order_table_div > div:nth-child(1){
+    float: right;
+    margin-bottom: 10px;
+}
+.admin_order_table_div > div:nth-child(2){
+    float: right;
+    margin-right: 1%;
+}
+.admin_order_table_div > div:nth-child(3){
+    clear: right;
+}

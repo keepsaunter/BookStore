@@ -1,0 +1,12 @@
+.balance_div{
+    background-color: #eeeeee;
+    position: fixed;
+    bottom: 0px;
+    width: 70%;
+}
+.balance_div span:not(:last-child){
+    line-height: 40px;
+}
+.balance_div span:first-child{
+    /*margin-left:10%;*/
+}

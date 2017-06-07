@@ -1,0 +1,69 @@
+.book_detail_general_div > .img_div{
+    width: 300px;
+    display: inline-block;
+}
+.book_detail_general_div > .info_div{
+    float: right;
+    width: 540px;
+    margin-right: 100px;
+}
+/*name*/
+.book_detail_general_div > .info_div > p:nth-child(1){
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bold;
+}
+/*introduction*/
+.book_detail_general_div > .info_div > p:nth-child(2) {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 100;
+    color: #323232;
+    margin-bottom: 10px;
+}
+/*author,edition*/
+.book_detail_general_div > .info_div > p:nth-child(3) {
+    border-top: solid 1px #eeeeee;
+    line-height: 30px;
+}
+.book_detail_general_div > .info_div > p:nth-child(3) > span {
+    margin-right: 30px;
+}
+/*level*/
+.book_detail_general_div > .info_div > div.buy_info{
+    border: solid 1px #eeeeee;
+}
+.book_detail_general_div > .info_div > div.buy_info > span{
+    display: inline-block;
+    width: 33%;
+    height: 31px;
+    text-align: center;
+}
+.book_detail_general_div > .info_div > div.buy_info > span:first-child{
+    float: left;
+}
+.book_detail_general_div > .info_div > div.buy_info > span:first-child li{
+    font-size: 14px;
+    margin-right: 2px;
+}
+.book_detail_general_div > .info_div > div.buy_info > span:not(:first-child){
+    padding-top: 10px;
+    border-left: dotted 2px #eeeeee;
+}
+/*price*/
+.book_detail_general_div > .info_div > p:nth-child(5) {
+    line-height: 50px;
+    font-size: 24px;
+    color: red;
+}
+/*btn_group*/
+.book_detail_general_div > .info_div > .btn_group button {
+    font-size: 16px;
+}
+/*评分控件*/
+.ant-rate-disabled .ant-rate-star {
+    cursor: default;
+}
+.detail_preview_img_div > img:hover{
+    outline: solid 2px red;
+}

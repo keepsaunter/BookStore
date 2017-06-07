@@ -1,0 +1,27 @@
+.classfy_frame {
+    background-image: url("../../images/classfy-frame-back.png");
+    width: 21%;
+    background-size: 100%;
+    /*height: 570px;*/
+
+    padding-top: 6%;
+
+    /*padding-top: 50%;*/
+    padding-bottom: 16%;
+    /*margin-top: -14%;*/
+    min-height: 600px;
+}
+.classfy_frame .classfy_items{
+    margin-left: 20%;
+}
+.classfy_frame .classfy_items .classfy_item{
+    background-image: url("../../images/classfy-item.png");
+    background-size: contain;
+    /*width: 92%;*/
+    /*height: 66px;*/
+    text-align: center;
+    font-size: 200%;
+    padding-top: 4%;
+    padding-bottom: 8%;
+    color: white;
+}

@@ -1,0 +1,9 @@
+.new_order_balance_div{
+    background-color: #eeeeee;
+    position: fixed;
+    bottom: 0px;
+    width: 70%;
+}
+.new_order_balance_div span:not(:last-child){
+    line-height: 40px;
+}

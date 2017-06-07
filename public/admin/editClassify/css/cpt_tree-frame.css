@@ -1,0 +1,52 @@
+.tree_div > div{
+    display: inline-block;
+}
+.tree_div>.first_child_div{
+    float: left;
+    padding-top: 3px;
+}
+.tree_div .first_child_div > .tree_node_card{
+    margin-bottom: 51px;
+}
+.tree_div>.first_child_div > .tree_node_card::before{
+    content: "";
+    width: 30px;
+    position: absolute;
+    height: 89px;
+    top: 18px;
+    left: -30px;
+    border: solid 0px black;
+    border-left-width: 3px;
+    border-top-width: 3px;
+}
+.tree_div .first_child_div > .tree_node_card:last-child::before{
+    border-left-width: 0px;
+}
+.tree_div > .second_child_div{
+    margin-left: 28px;
+    width: 823px;
+}
+.tree_div>.second_child_div > div::before{
+    content: "";
+    width: 30px;
+    position: absolute;
+    height: 87px;
+    top: 18px;
+    left: -30px;
+    border: solid 0px black;
+    border-top-width: 3px;
+}
+.tree_div > .second_child_div > div {
+    margin-bottom: 7px;
+    position: relative;
+    border: solid 1px #404040;
+    border-radius: 4px;
+    padding: 3px;
+    height: 80px;
+}
+.tree_div > .second_child_div > div > div{
+    display: inline-block;
+}
+.tree_div > .second_child_div > div > div:not(:last-child){
+    margin-right: 3px;
+}

@@ -1,0 +1,40 @@
+/**{margin:0;padding:0;}*/
+.best_selling_div {
+    height:250px;
+    clear: both;
+    margin-top: 70%;
+}
+.best_selling_div > div{
+    display: inline-block;
+    height: 100%;
+}
+.bookshelf_name_div {
+    background-image: url("../../images/bookshelf_name.png");
+    width: 5%;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+
+    position: relative;
+}
+.bookshelf_name_div span{
+    position: absolute;
+    writing-mode: vertical-lr;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2em;
+}
+.bookshelf_div{
+    background-image: url("../../images/best_sell.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding-top: 50px;
+    padding-left: 2%;
+}
+.bookshelf_div > div{
+    width: 100%;
+    height: 97%;
+    float: left;
+}

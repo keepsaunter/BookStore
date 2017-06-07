@@ -1,0 +1,35 @@
+#dragContainer{
+    background-color: #eeeeee;
+    padding: 2px 2px;
+    position: relative;
+    border-radius: 4px;
+}
+#dragBg{
+    background-color: #7ac23c;
+    width: 0px;
+    display: inline-block;
+}
+#dragText{
+    position: absolute;
+    top:2px;
+    left:2px;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    background-color: transparent;
+    cursor: context-menu;
+}
+#dragHandler{
+    width: 60px;
+    display: inline-block;
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    font-size: 24px;
+    color: #eeeeee;
+}
+#dragHandler:hover{
+    cursor: move;
+}

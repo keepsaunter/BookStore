@@ -1,0 +1,41 @@
+.ant-carousel{
+    padding: 1% 1%;
+    background-image: url("../../images/carousel_boder.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 76%;
+}
+.ant-carousel .slick-slide {
+
+    /*height: 160px;*/
+
+    /*color: #fff;*/
+    /*overflow: hidden;*/
+}
+.ant-carousel .slick-list {
+    width: 80%;
+    line-height: 260px;
+}
+.ant-carousel .slick-list .slick-slide{
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 86% !important;
+}
+.ant-carousel .carouser-ul-div{
+    background-image: url("../../images/carousel_ul_li.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 150%;
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+.ant-carousel .slick-dots {
+    width: 29%;
+    right: 1%;
+    top: 54%;
+}
+.ant-carousel .slick-dots > li {
+    width: 100%;
+    color: white;
+    margin-top: -5%;
+}

@@ -1,0 +1,13 @@
+#classify_menu {
+    width: 100%;
+}
+#classify_menu > div{
+    width: 100%;
+    border: solid 1px #EEEEEE;
+}
+#classify_menu >div span{
+    line-height: 30px;
+}
+#classify_menu >div span a{
+    /*color: #eeeeee;*/
+}

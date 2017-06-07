@@ -1,0 +1,10 @@
+.book_detail_tab > div > div.content{
+    margin-right: 40px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+.book_detail_tab > div > div:first-child > p > span{
+    width: 33%;
+    line-height: 30px;
+    display: inline-block;
+}

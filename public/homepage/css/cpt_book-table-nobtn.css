@@ -1,0 +1,14 @@
+.book_card{
+    width: 158px;
+    padding: 10px 10px;
+    display: inline-block;
+    margin-left: 2%;
+}
+.book_img_div{
+    width: 136px;
+    height: 172px;
+    margin-bottom: 4px;
+}
+.book_info_div div:last-child{
+    text-align: center;
+}

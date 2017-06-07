@@ -1,0 +1,67 @@
+.book_card{
+    width: 202px;
+    padding: 10px 10px;
+    display: inline-block;
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+.book_img_div{
+    width: 180px;
+    height: 225px;
+    margin-bottom: 4px;
+}
+.book_info_div div:last-child{
+    text-align: center;
+}
+ul.ant-rate{
+    font-size: 16px;
+}
+ul.ant-rate > li {
+    margin-right: 0px;
+}
+.ant-rate-disabled .ant-rate-star{
+    cursor: default;
+}
+.book_card .book_btn_group_div{
+    cursor: pointer;
+    position: absolute;
+    left: 10px;
+    width: 100%;
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    padding-top: -1px;
+    height: 0px;
+    border-right: solid 20px;
+}
+.book_card .book_btn_group_div > div{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.book_card .book_btn_group_div > div:first-child{
+    border-right: solid 1px white;
+}
+.book_show_div .ant-input-search{
+    border-bottom-right-radius: 4px !important;
+    border-top-right-radius: 4px !important;
+}
+.search_order_div {
+    margin-left: 16px;
+    height: 28px;
+    background-color: #eeeeee;
+    margin-right: 1%;
+}
+.search_order_div > span:first-child {
+    font-size: 12px;
+    line-height: 28px;
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+.search_order_div > span.is_selected{
+    background-color: white;
+    outline: solid 1px #eeeeee;
+    outline-offset: -1px;
+}

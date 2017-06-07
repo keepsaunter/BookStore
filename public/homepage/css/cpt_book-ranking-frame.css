@@ -1,0 +1,22 @@
+.book_rank_div .book_li_div{
+    line-height: 36px;
+    font-size: 15px;
+    width: 94%;
+    border-top: dotted 2px #EEEEEE;
+    margin: auto;
+    overflow: hidden;
+}
+.book_rank_div .book_info_div{
+    display: none;
+}
+.book_rank_div .book_li_div div:first-child{
+    width: 26px;
+    display: inline-block;
+    float: left;
+}
+.book_rank_div .book_info_div span{
+    display: inline-block;
+    word-break: break-all;
+    float: right;
+    width: 106px;
+}

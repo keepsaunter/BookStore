@@ -1,0 +1,8 @@
+.image_upload_div{
+    min-height: 100px;
+    display: block;
+}
+.ant-modal-close{
+    right: 2px;
+    top: 2px;
+}

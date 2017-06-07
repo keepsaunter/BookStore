@@ -1,0 +1,27 @@
+.myorder_table_div div:nth-child(2){
+    clear: right;
+}
+.myorder_table_div > ul{
+    clear: right;
+}
+.myorder_table_card .ant-card-body{
+    padding: 6px;
+}
+.myorder_table_card .ant-table-tbody > tr > td{
+    padding: 4px 8px;
+}
+.myorder_table_card .ant-collapse-item:first-child .ant-collapse-content > .ant-collapse-content-box{
+    padding-top: 0px;
+}
+.receiver_info_panel > div:last-child span{
+    margin-right: 20%;
+}
+.receiver_info_panel > div:last-child span:first-child{
+    margin-left: 5%;
+}
+.myorder_table_card .ant-card-head{
+    height: 38px;
+}
+.myorder_table_card .ant-card-head-title{
+    line-height: 38px;
+}

@@ -1,0 +1,12 @@
+.homePageHeader{
+    background-image: url("../images/homepage_header.png");
+    /*width: 100%;*/
+    /*padding-top: 1px;*/
+    /*height: 200px;*/
+    /*!*padding-bottom: 30%;*!*/
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    padding-top: 1px;
+    padding-bottom: 17%;
+}

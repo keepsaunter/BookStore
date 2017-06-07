@@ -1,0 +1,17 @@
+#contain{
+    width: 76%;
+    margin-left: 12%;
+    min-width: 1150px;
+}
+#contain .classfy_carousel_div{
+    margin-top: -14%;
+}
+#contain .classfy_carousel_div .classfy_frame {
+    display: inline-block;
+    float: left;
+}
+#contain .classfy_carousel_div .ant-carousel {
+    display: inline-block;
+    float: right;
+    margin-top: 1%;
+}

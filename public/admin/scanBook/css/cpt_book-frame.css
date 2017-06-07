@@ -1,0 +1,19 @@
+.book_table_div .ant-select-selection{
+    height: 32px;
+}
+.book_table_div .ant-row{
+    width: 66%;
+    float: left;
+}
+.book_table_div .ant-row .ant-form-item-label{
+    display: none;
+}
+.book_table_div .ant-row>div:first-child{
+    width: 29%;
+}
+.book_table_div .ant-row>div .ant-form-item{
+    margin-bottom: 0px;
+}
+.book_table_div i {
+    cursor: pointer;
+}

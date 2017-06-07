@@ -1,0 +1,12 @@
+.header_div{
+    border-bottom: solid 2px #F2F2F2;
+    margin-bottom: 28px;
+}
+.header_div > .login_info_div{
+    background-color: #F2F2F2;
+    height: 28px;
+}
+.header_div > .home_search_frame_div {
+    width: 70%;
+    margin: auto;
+}

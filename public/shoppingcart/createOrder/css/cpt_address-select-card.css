@@ -1,0 +1,19 @@
+.address_card > .ant-card-body{
+    padding-top: 14px;
+}
+.address_card > .ant-card-body > p{
+    line-height: 20px;
+}
+.check_sign_div > div:first-child {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: solid 18px transparent;
+    border-right-color: #eeeeee;
+    border-bottom-color: #eeeeee;
+}
+.check_sign_div > div:nth-child(2) {
+    position: absolute;
+    right: 3px;
+    bottom: 3px;
+}
